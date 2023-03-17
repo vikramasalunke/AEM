@@ -2,6 +2,7 @@ import {
   sampleRUM,
   buildBlock,
   loadHeader,
+  // loadAbHeader,
   loadFooter,
   decorateButtons,
   decorateIcons,
@@ -95,6 +96,7 @@ async function loadLazy(doc) {
   const element = hash ? doc.getElementById(hash.substring(1)) : false;
   if (hash && element) element.scrollIntoView();
 
+  // loadAbHeader(doc.querySelector('header'));
   loadHeader(doc.querySelector('header'));
   loadFooter(doc.querySelector('footer'));
 

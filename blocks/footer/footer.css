@@ -1,7 +1,12 @@
 footer {
   padding: 2rem;
-  background-color: var(--overlay-background-color);
-  font-size: var(--body-font-size-s);
+  background-color: #00004e;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.footer p{
+  color: #ffffff;
 }
 
 footer .footer {
@@ -9,6 +14,40 @@ footer .footer {
   margin: auto;
 }
 
+footer .columns div{
+  background-color: #00004e;
+}
+
 footer .footer p {
   margin: 0;
+ line-height: 1.5;
+    margin-top: 20px;
+      margin-bottom: 13px;
+}
+footer .columns >div >div:first-child {
+    border-right: 1px solid #ffffff;
+    height: 300px;
+}
+.footer .columns a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 42px;
+}
+.footer img {
+    width: 90px;
+    height: auto;
+}
+footer ul {
+    list-style: none;
+   padding-left: 0px;
+}
+@media only screen and (max-width: 768px) {
+footer .columns >div >div:first-child {
+    border-right: 0;
+    border-bottom: 1px solid #ffffff;
+}
+  footer {
+    text-align: center;
+}
 }
