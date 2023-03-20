@@ -20,10 +20,3 @@
 .inline-notice .cards-card-body > *:first-child {
     margin-top: 0;
 }
-@media (min-width: 320px) {
-   .inline-notice .cards-card-body {
-    margin:0;
-       
-}
-  .inline-notice .cards-card-image {}  
-}
