@@ -1,3 +1,6 @@
+.inline-notice ul li {
+    list-style-type: none;
+}
 .inline-notice .cards-card-body {
     margin: 16px;
 }
@@ -7,6 +10,9 @@
     height:100px;
     width:100px;
     margin-right: 50px;
+}
+.inline-notice .cards-card-body ul li {
+    list-style-type: disc;
 }
 
 .inline-notice .cards-card-body > *:first-child {
