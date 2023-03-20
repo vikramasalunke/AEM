@@ -3,7 +3,10 @@
 }
 
 .inline-notice .cards-card-image {
-    line-height: 0;
+    float: left;
+    height:100px;
+    width:100px;
+    margin-right: 50px;
 }
 
 .inline-notice .cards-card-body > *:first-child {
