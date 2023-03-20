@@ -23,3 +23,28 @@
 .inline-notice .cards-card-body > *:first-child {
     margin-top: 0;
 }
+@media (max-width: 480px){
+
+    .inline-notice ul{
+    width:auto;
+}
+
+    .inline-notice .cards-card-image {
+        float:initial;
+        width: 100%;
+        max-width:none;
+        margin-left: auto;
+        margin-right:auto;
+        height:72px;
+        width:72px;
+        margin-bottom:24px;
+    }
+
+    .inline-notice .cards-card-body {
+        margin-bottom: 32px;
+        margin-left: auto;
+        margin-right:auto;
+        
+}
+  
+}
