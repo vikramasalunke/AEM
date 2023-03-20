@@ -23,6 +23,9 @@
 .inline-notice .cards-card-body > *:first-child {
     margin-top: 30px;
 }
+.inline-notice .cards-card-body > *:last-child {
+    margin-bottom: 32px;
+}
 @media (max-width: 480px){
 
     .inline-notice ul{
