@@ -123,7 +123,9 @@ code, pre, samp {
 code, samp {
   padding: .125em;
 }
-
+sup{
+ font-size:11px;
+}
 pre {
   overflow: scroll;
 }

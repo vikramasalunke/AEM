@@ -12,6 +12,7 @@ import {
   waitForLCP,
   loadBlocks,
   loadCSS,
+  getMetadata,
 } from './lib-franklin.js';
 
 const LCP_BLOCKS = []; // add your LCP blocks to the list
@@ -27,6 +28,21 @@ function buildHeroBlock(main) {
     main.prepend(section);
   }
 }
+/**
+ * Builds the Prefooter fragment
+ * @param {Element} main The container element
+ */
+function buildPreFooterFragment(main) {
+  if (document.querySelector('[data-prefooter]')) return;
+  const preFooter = getMetadata('prefooter') || '/prefooter';
+  const fragment = buildBlock('fragment', [[
+    `<a href="${preFooter}">${window.location.origin}${preFooter}</a>`,
+  ]]);
+  const section = document.createElement('div');
+  section.dataset.prefooter = true;
+  section.append(fragment);
+  main.append(section);
+}
 
 /**
  * Builds all synthetic blocks in a container element.
@@ -35,6 +51,7 @@ function buildHeroBlock(main) {
 function buildAutoBlocks(main) {
   try {
     buildHeroBlock(main);
+    buildPreFooterFragment(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);

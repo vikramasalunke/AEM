@@ -1,0 +1,11 @@
+.section.prefooter-container {
+    padding: 16px;
+}
+.prefooter{
+text-align: center;
+    font-size: 16px;
+    color: #383838;
+}
+.prefooter a {
+    text-decoration: underline;
+}
