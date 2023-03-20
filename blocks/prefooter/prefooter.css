@@ -1,22 +1,11 @@
-footer {
-  padding: 2rem;
-  background-color: #00004e;
-  font-size: var(--body-font-size-s);
-  color: #ffffff;
+.section.prefooter-container {
+    padding: 16px;
 }
-
-footer .footer {
-  max-width: 1200px;
-  margin: auto;
+.prefooter{
+text-align: center;
+    font-size: 16px;
+    color: #383838;
 }
-footer .pre-footer {
-  max-width: 100%;
-  margin: auto;
-}
-.pre-footer {
-    text-align: center;
-    padding: 26px;
-}
-footer .footer p {
-  margin: 0;
+.prefooter a {
+    text-decoration: underline;
 }
