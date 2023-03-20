@@ -261,9 +261,9 @@ main .section:nth-child(3) {
 }
 
 /*Hide some sections*/
-.section.highlight:not(.cards-container){
+/* .section.highlight:not(.cards-container){
   display: none;
-}
+} */
 
 /* Single image */
 p picture img{

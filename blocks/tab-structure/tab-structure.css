@@ -1,0 +1,27 @@
+.section.highlight:not(.tab-structure-container) {
+    display:  none;
+}
+.tab-structure div, .tab-structure .button-container a{
+    background-color: #fff;
+    color: #383838;
+}
+.tab-structure .button-container:first-child{
+    float: left;
+    width: 48%;
+    border-right: 1px solid #383838;
+}
+
+.tab-structure .button-container:nth-child(2){
+    margin-left: 49%;
+}
+.tab-structure a.button:any-link{
+    margin: 0px;
+    padding-top: 10px;
+}
+.tab-structure a.button-active, .tab-structure .button-container.button-active{
+    background-color: #0365b41a;
+    color: #0047BB;
+}
+footer{
+    display: none;
+}
