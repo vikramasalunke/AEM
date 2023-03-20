@@ -2,7 +2,8 @@
     list-style-type: none;
 }
 .inline-notice .cards-card-body {
-    margin: 16px;
+    margin-bottom: 32px;
+    margin-left: 150px;
 }
 
 .inline-notice .cards-card-image {
@@ -13,6 +14,7 @@
 }
 .inline-notice .cards-card-body ul li {
     list-style-type: disc;
+    color:#383838;
 }
 
 .inline-notice .cards-card-body > *:first-child {
