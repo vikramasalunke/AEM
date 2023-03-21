@@ -1,10 +1,11 @@
 .section-1 > ul {
     list-style: none;
+    border: none;
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 16px;
+    grid-template-columns: 66% 33%;
+    grid-gap: 30px;
 }
 
 .section-1 > ul > li {
