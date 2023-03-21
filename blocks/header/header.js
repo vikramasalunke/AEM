@@ -94,7 +94,7 @@ export default async function decorate(block) {
   const navMeta = getMetadata('nav');
   const navPath = navMeta ? new URL(navMeta).pathname : '/nav';
   const resp = await fetch(`${navPath}.plain.html`);
-console.log(resp);
+
   if (resp.ok) {
     const html = await resp.text();
 
