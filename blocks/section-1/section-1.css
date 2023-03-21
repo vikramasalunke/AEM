@@ -5,27 +5,8 @@
     padding: 0;
     display: grid;
     grid-template-columns: 66% 33%;
-    grid-gap: 30px;
+    grid-gap: 40px;
 }
-
-.section-1 > ul > li {
-    background-color: var(--background-color)
-}
-
-.section-1 .cards-card-body {
-    margin: 16px;
-}
-
-.section-1 .cards-card-image {
-    line-height: 0;
-}
-
-.section-1 .cards-card-body > *:first-child {
-    margin-top: 0;
-}
-
-.section-1 > ul > li img {
-    width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
+.section-1 > ul li {
+    margin-right:25px;
 }
