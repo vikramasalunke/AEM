@@ -252,7 +252,7 @@ main img {
 
 @media (min-width: 600px) {
   main .section {
-    padding: 40px 32px;
+    padding: 0;
   }  
 }
 
@@ -316,7 +316,8 @@ display: grid;
     grid-template-columns: repeat(12, 1fr);
     column-gap: 1.5rem;
     row-gap: 2rem;
-    width: 93%;
+    max-width: 1200px;
+    padding: 42px 32px;
     margin: 0 auto;
 }
 .inner-page .section:first-child{
