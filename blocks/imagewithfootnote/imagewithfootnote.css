@@ -1,0 +1,63 @@
+.imagewithfootnote > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   /* display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 16px;*/
+}
+
+.imagewithfootnote > ul > li {
+    border: 1px solid var(--highlight-background-color);
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.imagewithfootnote .imagewithfootnote-card-body {
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagewithfootnote .imagewithfootnote-card-image {
+    line-height: 0;
+}
+
+.imagewithfootnote .imagewithfootnote-card-body > *:first-child {
+    margin-top: 0;
+}
+
+.imagewithfootnote > ul > li img {
+    width: 100%;
+    /*aspect-ratio: 4 / 3; for getting image fit*/
+    object-fit: cover;
+}
+
+.imagewithfootnote ul li .imagewithfootnote-card-body ul{
+    list-style-type: disc;
+}
+.imagewithfootnote ul li {
+    position: relative;
+}
+
+.imagewithfootnote .imagewithfootnote-card-body .button-container a{
+   /* position: absolute; */
+    bottom: 8px;
+    width: 90%;
+}
+
+/*Button margin*/
+.imagewithfootnote p.button-container{
+    margin-top: 40px;
+}
+/* Footnote */
+.imagewithfootnote .imagewithfootnote-card-body h6 {
+    margin: -16px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgb(161,170,171);
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(56,56,56);
+    padding : 16px 24px 12px 24px;
+  }

@@ -1,0 +1,77 @@
+.isi-persistent {
+    background-color: #fff;
+    
+    z-index: 1020;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-size-adjust: 100px;
+    
+    /*overflow: auto;*/
+    border-top: 4px solid #0047bb;
+    padding: 16px 24px 16px 24px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.isi-persistent > div{
+   /* display: grid; 
+    grid-template-columns: 1fr 3fr; 
+    grid-gap: 20px; */
+    display: flex;
+    flex-direction: row-reverse;
+    position: sticky;
+    top: 0;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.isi-persistent-header > div:nth-child(2){
+    flex : 25%;
+    padding-right:49px;
+}
+    
+.isi-persistent-header > div{
+    flex : 75%;
+    display: flex;
+    justify-content: space-between;
+    color : #0047bb;
+}
+    
+.isi-persistent-content > div:nth-child(2){
+    flex : 25%;
+    padding-right:49px; 
+}
+    
+.isi-persistent-content > div{
+    flex : 75%;
+    
+}
+.isi-persistent-header > div >button {
+    color : #0047bb;
+    cursor: pointer;
+    font-weight: 600;
+    width: auto;
+    background: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    text-decoration: underline;
+    margin : 0;
+}
+.isi-persistent-collapse {
+    position: fixed;
+    height: 150px;
+}
+.isi-persistent-expanded {
+    position: fixed;
+    height: 400px;
+}
+
+.isi-persistent-expanded >div:nth-child(2){
+    height: 400px;
+    overflow: auto;
+}
+
+.isi-persistent-content >div:nth-child(1) >p:last-child{
+    padding-bottom: 32px;
+}
