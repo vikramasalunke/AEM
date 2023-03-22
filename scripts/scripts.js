@@ -146,5 +146,5 @@ function addclass(){
     const abc =document.querySelector('main');
     abc.classList.add('inner-page');
   }
-
+}
 loadPage();
