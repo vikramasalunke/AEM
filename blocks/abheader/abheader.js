@@ -21,7 +21,7 @@ export default async function decorate(block) {
   block.textContent = '';
 
   // fetch nav content
-  const navPath = cfg.nav || '/nav';
+  const navPath = cfg.abheader || '/abheader';
   const resp = await fetch(`${navPath}.plain.html`);
   if (resp.ok) {
     const html = await resp.text();
@@ -31,7 +31,7 @@ export default async function decorate(block) {
     nav.innerHTML = html;
     decorateIcons(nav);
 
-    const classes = ['brand', 'sections', 'tools'];
+    const classes = ['abbrand', 'sections', 'tools'];
     classes.forEach((e, j) => {
       const section = nav.children[j];
       if (section) section.classList.add(`nav-${e}`);

@@ -38,8 +38,14 @@
     bottom: 8px;
     width: 90%;
 }
-/*Button margin*/.large-video-card p.button-container{
+/*Button margin*/
+
+.large-video-card p.button-container{
     margin-top: 40px;
+}
+
+h5 {
+    color: #383838;
 }
 video {
     width: 100%;
