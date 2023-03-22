@@ -535,6 +535,16 @@ export function loadHeader(header) {
 }
 
 /**
+ * loads a block named 'abheader' into header
+ */
+export function loadAbHeader(abheader) {
+  const abheaderBlock = buildBlock('abheader', '');
+  abheader.append(abheaderBlock);
+  decorateBlock(abheaderBlock);
+  return loadBlock(abheaderBlock);
+}
+
+/**
  * loads a block named 'footer' into footer
  */
 export function loadFooter(footer) {
