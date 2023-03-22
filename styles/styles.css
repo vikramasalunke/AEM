@@ -321,3 +321,6 @@ display: grid;
 .inner-page .section:nth-child(2n){
   grid-column: span 4 / auto;
 }
+h3#most-common-adverse-reactions1-5 ~ p{
+  font-size: 16px;
+}
