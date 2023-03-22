@@ -290,3 +290,18 @@ p picture img{
   color: #383838;
   font-size: 12px;
 }
+/* inner-page 22-03-2019*/
+.inner-page{
+display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 2rem;
+    width: 93%;
+    margin: 0 auto;
+}
+.inner-page .section:first-child{
+  grid-column: span 8 / auto;
+}
+.inner-page .section:nth-child(2n){
+  grid-column: span 4 / auto;
+}
