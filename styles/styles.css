@@ -328,3 +328,6 @@ display: grid;
 h3#most-common-adverse-reactions1-5 ~ p{
   font-size: 16px;
 }
+#discontinuation-rates-due-to-adverse-events-for-mono-1-mono-2-and-compare-respectively2{
+  line-height: 1.25;
+}
