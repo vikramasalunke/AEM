@@ -140,4 +140,10 @@ async function loadPage() {
   loadDelayed();
 }
 
+function addclass(){
+  if (window.location.pathname!="/"){
+    const abc =document.querySelector('main');
+    abc.classList.add('inner-page');
+  }
+
 loadPage();
