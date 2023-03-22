@@ -63,7 +63,7 @@ body.appear {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: var(--heading-font-family);
-  line-height: 1.25;
+  /* line-height: 1.25; */
   margin-bottom: 0px;
   scroll-margin: calc(var(--nav-height) + 1em);
 }
@@ -75,7 +75,7 @@ h2 {
   font-size: 48px;
   color: #00218A;
   font-weight: 300;
-  padding-top: 48px;
+  /* padding-top: 48px; */
   margin-bottom: 32px;
 }
 h3 { 
@@ -104,6 +104,21 @@ p{
 dl, pre, blockquote {
   margin-top: 1em;
   margin-bottom: 1em;
+}
+.dosing strong{
+  color: #0047BB;
+}
+.inline-notice-container .default-content-wrapper p{
+  color:#6F6F6F;
+  font-size: 16px;
+}
+.columns.dosing div:nth-child(2){
+  margin: auto;
+  padding-right: 20px;
+}
+.cards.dosingcard ul{
+  grid-template-columns: none;
+  
 }
 
 a:any-link {
