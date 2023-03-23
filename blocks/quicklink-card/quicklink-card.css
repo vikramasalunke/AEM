@@ -74,5 +74,8 @@
 .quicklink-card .cards-card-body > *:third-child {
     border-radius: 10px 12px 0px 0px;
 }
+.quicklink-card .cards-card-body > *:last-child {
+    padding-bottom: 12px;
+}
 
 
