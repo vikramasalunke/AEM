@@ -1,6 +1,6 @@
 .quicklink-card > ul {
     list-style: none;
-    margin: 10px;
+    margin: 0px;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -10,6 +10,7 @@
 .quicklink-card > ul > li {
     border: 1px solid var(--highlight-background-color);
     background-color: var(--background-color);
+    border-radius: 16px;
 }
 
 .quicklink-card .cards-card-body h5{
