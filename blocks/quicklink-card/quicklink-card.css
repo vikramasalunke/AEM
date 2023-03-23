@@ -8,7 +8,6 @@
 }
 
 .quicklink-card > ul > li {
-    border: 1px solid var(--highlight-background-color);
     background-color: var(--background-color);
     border-radius: 16px;
 }
